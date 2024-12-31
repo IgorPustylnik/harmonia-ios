@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618CF2D242B6200F5E2A9 /* AppDelegate.swift */; };
+		552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618D12D242B6200F5E2A9 /* SceneDelegate.swift */; };
+		552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552618D82D242B6400F5E2A9 /* Images.xcassets */; };
+		552618DC2D242B6400F5E2A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 552618DB2D242B6400F5E2A9 /* Base */; };
+		5526190B2D24422200F5E2A9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526190A2D24422200F5E2A9 /* AppCoordinator.swift */; };
+		552619122D24432E00F5E2A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 552619102D24432E00F5E2A9 /* Localizable.strings */; };
+		552619172D24441F00F5E2A9 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619162D24441F00F5E2A9 /* ServiceLocator.swift */; };
+		552619192D24443800F5E2A9 /* ServiceLocating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619182D24443800F5E2A9 /* ServiceLocating.swift */; };
+		5526191F2D24448B00F5E2A9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526191E2D24448B00F5E2A9 /* BaseCoordinator.swift */; };
+		552619222D2444BB00F5E2A9 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619212D2444BB00F5E2A9 /* MainRouter.swift */; };
+		552619252D2444E100F5E2A9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619242D2444E100F5E2A9 /* Coordinator.swift */; };
+		552619272D2444F100F5E2A9 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619262D2444F100F5E2A9 /* Presentable.swift */; };
+		552619292D24451800F5E2A9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619282D24451800F5E2A9 /* Router.swift */; };
+		552619322D24467300F5E2A9 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 552619312D24467300F5E2A9 /* swiftgen.yml */; };
+		552619342D2446D100F5E2A9 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619332D2446D100F5E2A9 /* Strings.swift */; };
+		5526193D2D2449C900F5E2A9 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */; };
+		5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193C2D2449C900F5E2A9 /* UIView+ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		552618CC2D242B6200F5E2A9 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		552618CF2D242B6200F5E2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		552618D12D242B6200F5E2A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		552618D82D242B6400F5E2A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		552618DB2D242B6400F5E2A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		552618DD2D242B6400F5E2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5526190A2D24422200F5E2A9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5526190E2D2442B900F5E2A9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		552619112D24432E00F5E2A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		552619132D24434A00F5E2A9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		552619162D24441F00F5E2A9 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		552619182D24443800F5E2A9 /* ServiceLocating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocating.swift; sourceTree = "<group>"; };
+		5526191E2D24448B00F5E2A9 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		552619212D2444BB00F5E2A9 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		552619242D2444E100F5E2A9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		552619262D2444F100F5E2A9 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		552619282D24451800F5E2A9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		552619312D24467300F5E2A9 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		552619332D2446D100F5E2A9 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+ext.swift"; sourceTree = "<group>"; };
+		5526193C2D2449C900F5E2A9 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		552618C92D242B6200F5E2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552618C32D242B6200F5E2A9 = {
+			isa = PBXGroup;
+			children = (
+				552618CE2D242B6200F5E2A9 /* Harmonia */,
+				552618CD2D242B6200F5E2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		552618CD2D242B6200F5E2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				552618CC2D242B6200F5E2A9 /* Harmonia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		552618CE2D242B6200F5E2A9 /* Harmonia */ = {
+			isa = PBXGroup;
+			children = (
+				552619092D24420100F5E2A9 /* App */,
+				552619142D24440B00F5E2A9 /* Flows */,
+				552619152D24441100F5E2A9 /* Services */,
+				5526191B2D24445A00F5E2A9 /* Library */,
+				5526190C2D24429800F5E2A9 /* Resources */,
+				552619302D24465900F5E2A9 /* SwiftGen */,
+			);
+			path = Harmonia;
+			sourceTree = "<group>";
+		};
+		552619092D24420100F5E2A9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				552618CF2D242B6200F5E2A9 /* AppDelegate.swift */,
+				552618D12D242B6200F5E2A9 /* SceneDelegate.swift */,
+				5526190A2D24422200F5E2A9 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5526190C2D24429800F5E2A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5526190D2D2442A600F5E2A9 /* Assets */,
+				5526190F2D24430C00F5E2A9 /* Strings */,
+				552618DA2D242B6400F5E2A9 /* LaunchScreen.storyboard */,
+				552618DD2D242B6400F5E2A9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5526190D2D2442A600F5E2A9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5526190E2D2442B900F5E2A9 /* Colors.xcassets */,
+				552618D82D242B6400F5E2A9 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5526190F2D24430C00F5E2A9 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				552619102D24432E00F5E2A9 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		552619142D24440B00F5E2A9 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		552619152D24441100F5E2A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5526191A2D24444B00F5E2A9 /* Locator */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5526191A2D24444B00F5E2A9 /* Locator */ = {
+			isa = PBXGroup;
+			children = (
+				552619162D24441F00F5E2A9 /* ServiceLocator.swift */,
+				552619182D24443800F5E2A9 /* ServiceLocating.swift */,
+			);
+			path = Locator;
+			sourceTree = "<group>";
+		};
+		5526191B2D24445A00F5E2A9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5526191C2D24446400F5E2A9 /* ReusableLayers */,
+				5526191D2D24447200F5E2A9 /* BaseClasses */,
+				552619232D2444C800F5E2A9 /* Protocols */,
+				5526193A2D2449C900F5E2A9 /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5526191C2D24446400F5E2A9 /* ReusableLayers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReusableLayers;
+			sourceTree = "<group>";
+		};
+		5526191D2D24447200F5E2A9 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5526191E2D24448B00F5E2A9 /* BaseCoordinator.swift */,
+				552619212D2444BB00F5E2A9 /* MainRouter.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		552619232D2444C800F5E2A9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				552619242D2444E100F5E2A9 /* Coordinator.swift */,
+				552619262D2444F100F5E2A9 /* Presentable.swift */,
+				552619282D24451800F5E2A9 /* Router.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		552619302D24465900F5E2A9 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				552619332D2446D100F5E2A9 /* Strings.swift */,
+				552619312D24467300F5E2A9 /* swiftgen.yml */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		5526193A2D2449C900F5E2A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */,
+				5526193C2D2449C900F5E2A9 /* UIView+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		552618CB2D242B6200F5E2A9 /* Harmonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552618E02D242B6400F5E2A9 /* Build configuration list for PBXNativeTarget "Harmonia" */;
+			buildPhases = (
+				5526192F2D24463000F5E2A9 /* SwiftGen */,
+				552619082D243FDD00F5E2A9 /* SwiftLint */,
+				552618C82D242B6200F5E2A9 /* Sources */,
+				552618C92D242B6200F5E2A9 /* Frameworks */,
+				552618CA2D242B6200F5E2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmonia;
+			productName = Harmonia;
+			productReference = 552618CC2D242B6200F5E2A9 /* Harmonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		552618C42D242B6200F5E2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					552618CB2D242B6200F5E2A9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 552618C72D242B6200F5E2A9 /* Build configuration list for PBXProject "Harmonia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 552618C32D242B6200F5E2A9;
+			packageReferences = (
+				552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
+			productRefGroup = 552618CD2D242B6200F5E2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				552618CB2D242B6200F5E2A9 /* Harmonia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		552618CA2D242B6200F5E2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */,
+				552619122D24432E00F5E2A9 /* Localizable.strings in Resources */,
+				552618DC2D242B6400F5E2A9 /* Base in Resources */,
+				552619322D24467300F5E2A9 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		552619082D243FDD00F5E2A9 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SWIFT_PACKAGE_DIR=\"${BUILD_DIR%Build/*}SourcePackages/artifacts\"\nSWIFTLINT_CMD=$(ls \"$SWIFT_PACKAGE_DIR\"/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-*/bin/swiftlint | head -n 1)\n\nif test -f \"$SWIFTLINT_CMD\" 2>&1\nthen\n    \"$SWIFTLINT_CMD\"\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+		};
+		5526192F2D24463000F5E2A9 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]\nthen\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftgen >/dev/null; then\n  swiftgen config run --config ${PROJECT_DIR}/Harmonia/SwiftGen/swiftgen.yml\nelse\n  echo \"error: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		552618C82D242B6200F5E2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5526193D2D2449C900F5E2A9 /* UIApplication+ext.swift in Sources */,
+				552619252D2444E100F5E2A9 /* Coordinator.swift in Sources */,
+				552619172D24441F00F5E2A9 /* ServiceLocator.swift in Sources */,
+				552619292D24451800F5E2A9 /* Router.swift in Sources */,
+				552619222D2444BB00F5E2A9 /* MainRouter.swift in Sources */,
+				5526191F2D24448B00F5E2A9 /* BaseCoordinator.swift in Sources */,
+				552619192D24443800F5E2A9 /* ServiceLocating.swift in Sources */,
+				552619342D2446D100F5E2A9 /* Strings.swift in Sources */,
+				5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */,
+				5526190B2D24422200F5E2A9 /* AppCoordinator.swift in Sources */,
+				552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */,
+				552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */,
+				552619272D2444F100F5E2A9 /* Presentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		552618DA2D242B6400F5E2A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				552618DB2D242B6400F5E2A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		552619102D24432E00F5E2A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				552619112D24432E00F5E2A9 /* en */,
+				552619132D24434A00F5E2A9 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		552618DE2D242B6400F5E2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		552618DF2D242B6400F5E2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552618E12D242B6400F5E2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 483R2RBHL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Harmonia/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPustylnik.Harmonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		552618E22D242B6400F5E2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 483R2RBHL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Harmonia/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPustylnik.Harmonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		552618C72D242B6200F5E2A9 /* Build configuration list for PBXProject "Harmonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552618DE2D242B6400F5E2A9 /* Debug */,
+				552618DF2D242B6400F5E2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552618E02D242B6400F5E2A9 /* Build configuration list for PBXNativeTarget "Harmonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552618E12D242B6400F5E2A9 /* Debug */,
+				552618E22D242B6400F5E2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 552618C42D242B6200F5E2A9 /* Project object */;
+}
