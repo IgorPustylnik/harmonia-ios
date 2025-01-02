@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0686A35A7056FFCC34465EAC /* AuthViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848718320E2C974500EC9D27 /* AuthViewInput.swift */; };
 		1B101E7A6CFCB6D124D0EEB5 /* Pods_Harmonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66F1903C7C8E35D8C6892D5 /* Pods_Harmonia.framework */; };
 		552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618CF2D242B6200F5E2A9 /* AppDelegate.swift */; };
 		552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618D12D242B6200F5E2A9 /* SceneDelegate.swift */; };
@@ -26,10 +27,22 @@
 		5526193D2D2449C900F5E2A9 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */; };
 		5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193C2D2449C900F5E2A9 /* UIView+ext.swift */; };
 		555A11032D26B85F00892000 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5526190E2D2442B900F5E2A9 /* Colors.xcassets */; };
+		57BFD82EE8982A2619C6FDB5 /* AuthModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7FEFE04D15E3A3E07FBA2 /* AuthModuleConfigurator.swift */; };
+		61238225EF1E40156DAB99A0 /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD94E799847AE6117410FF8 /* AuthPresenter.swift */; };
+		6F38249BB3E86FB9277ECA92 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C3CF16C244FC19645DA736 /* AuthViewController.swift */; };
+		8015A373E5B85AC661127CE2 /* AuthViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49084E8AB7E12917E4A155A /* AuthViewOutput.swift */; };
+		858D5A1EDFA0B6A77614D464 /* AuthCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DF348C402456594A787F0 /* AuthCoordinatorOutput.swift */; };
+		98CE43CDB5AAD3243A7A2DA7 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211974CFEE376329280426B /* AuthView.swift */; };
+		ACF63A46BDCE772965220FDE /* AuthModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7552953FD8CEFFF8217551 /* AuthModuleInput.swift */; };
+		CE01821EE8CED40AF0FD11BC /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36554BB51A60A0E3AA7708F1 /* AuthCoordinator.swift */; };
+		DFADBDA510053F3B362FF7B1 /* AuthModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2036BE0FEF183F1E3E62FBAA /* AuthModuleOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2015616BFB919F87A69937C0 /* Pods-Harmonia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harmonia.debug.xcconfig"; path = "Target Support Files/Pods-Harmonia/Pods-Harmonia.debug.xcconfig"; sourceTree = "<group>"; };
+		2036BE0FEF183F1E3E62FBAA /* AuthModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthModuleOutput.swift; sourceTree = "<group>"; };
+		2DD94E799847AE6117410FF8 /* AuthPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
+		36554BB51A60A0E3AA7708F1 /* AuthCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		552618CC2D242B6200F5E2A9 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552618CF2D242B6200F5E2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552618D12D242B6200F5E2A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +64,14 @@
 		552619332D2446D100F5E2A9 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+ext.swift"; sourceTree = "<group>"; };
 		5526193C2D2449C900F5E2A9 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		82C3CF16C244FC19645DA736 /* AuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		848718320E2C974500EC9D27 /* AuthViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewInput.swift; sourceTree = "<group>"; };
+		8B7552953FD8CEFFF8217551 /* AuthModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthModuleInput.swift; sourceTree = "<group>"; };
+		AA1DF348C402456594A787F0 /* AuthCoordinatorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinatorOutput.swift; sourceTree = "<group>"; };
 		B66F1903C7C8E35D8C6892D5 /* Pods_Harmonia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Harmonia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD7FEFE04D15E3A3E07FBA2 /* AuthModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthModuleConfigurator.swift; sourceTree = "<group>"; };
+		C49084E8AB7E12917E4A155A /* AuthViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewOutput.swift; sourceTree = "<group>"; };
+		E211974CFEE376329280426B /* AuthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		F25E1B9C3235D330830FB8AE /* Pods-Harmonia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harmonia.release.xcconfig"; path = "Target Support Files/Pods-Harmonia/Pods-Harmonia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1861CA844AE372221581E8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				BCD7FEFE04D15E3A3E07FBA2 /* AuthModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		552618C32D242B6200F5E2A9 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +167,7 @@
 		552619142D24440B00F5E2A9 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				919CDCE15AA922AD52ECA295 /* Auth */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -221,7 +250,6 @@
 				2015616BFB919F87A69937C0 /* Pods-Harmonia.debug.xcconfig */,
 				F25E1B9C3235D330830FB8AE /* Pods-Harmonia.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -231,6 +259,47 @@
 				B66F1903C7C8E35D8C6892D5 /* Pods_Harmonia.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E89C024ED4840D6DE60D9F1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2DD94E799847AE6117410FF8 /* AuthPresenter.swift */,
+				8B7552953FD8CEFFF8217551 /* AuthModuleInput.swift */,
+				2036BE0FEF183F1E3E62FBAA /* AuthModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89A92D9DE93600B225F54D1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82C3CF16C244FC19645DA736 /* AuthViewController.swift */,
+				E211974CFEE376329280426B /* AuthView.swift */,
+				848718320E2C974500EC9D27 /* AuthViewInput.swift */,
+				C49084E8AB7E12917E4A155A /* AuthViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		919CDCE15AA922AD52ECA295 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CB77A7E161DC42542FD14DEB /* Coordinator */,
+				4A1861CA844AE372221581E8 /* Configurator */,
+				7E89C024ED4840D6DE60D9F1 /* Presenter */,
+				89A92D9DE93600B225F54D1E /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CB77A7E161DC42542FD14DEB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				36554BB51A60A0E3AA7708F1 /* AuthCoordinator.swift */,
+				AA1DF348C402456594A787F0 /* AuthCoordinatorOutput.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +476,16 @@
 				552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */,
 				552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */,
 				552619272D2444F100F5E2A9 /* Presentable.swift in Sources */,
+				57BFD82EE8982A2619C6FDB5 /* AuthModuleConfigurator.swift in Sources */,
+				61238225EF1E40156DAB99A0 /* AuthPresenter.swift in Sources */,
+				ACF63A46BDCE772965220FDE /* AuthModuleInput.swift in Sources */,
+				DFADBDA510053F3B362FF7B1 /* AuthModuleOutput.swift in Sources */,
+				6F38249BB3E86FB9277ECA92 /* AuthViewController.swift in Sources */,
+				98CE43CDB5AAD3243A7A2DA7 /* AuthView.swift in Sources */,
+				0686A35A7056FFCC34465EAC /* AuthViewInput.swift in Sources */,
+				8015A373E5B85AC661127CE2 /* AuthViewOutput.swift in Sources */,
+				CE01821EE8CED40AF0FD11BC /* AuthCoordinator.swift in Sources */,
+				858D5A1EDFA0B6A77614D464 /* AuthCoordinatorOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

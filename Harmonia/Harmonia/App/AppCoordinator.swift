@@ -58,6 +58,14 @@ final class AppCoordinator: BaseCoordinator {
 private extension AppCoordinator {
 
     func runAuthFlow() {
+        let router = MainRouter()
+        let coordinator = AuthCoordinator(router: router)
+        coordinator.onComplete = { [weak self, weak coordinator] in
+            self?.start()
+            self?.removeDependency(coordinator)
+        }
+        addDependency(coordinator)
+        coordinator.start()
     }
 
     func runMainFlow() {
