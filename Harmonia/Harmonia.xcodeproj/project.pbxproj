@@ -24,6 +24,7 @@
 		552619342D2446D100F5E2A9 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619332D2446D100F5E2A9 /* Strings.swift */; };
 		5526193D2D2449C900F5E2A9 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */; };
 		5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193C2D2449C900F5E2A9 /* UIView+ext.swift */; };
+		555A11032D26B85F00892000 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5526190E2D2442B900F5E2A9 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -271,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A11032D26B85F00892000 /* Colors.xcassets in Resources */,
 				552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */,
 				552619122D24432E00F5E2A9 /* Localizable.strings in Resources */,
 				552618DC2D242B6400F5E2A9 /* Base in Resources */,
