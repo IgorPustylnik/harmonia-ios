@@ -20,6 +20,7 @@ final class AuthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setAnimatedFluidBackground()
         output?.viewLoaded()
     }
 

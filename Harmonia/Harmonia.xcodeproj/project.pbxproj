@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0686A35A7056FFCC34465EAC /* AuthViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848718320E2C974500EC9D27 /* AuthViewInput.swift */; };
 		1B101E7A6CFCB6D124D0EEB5 /* Pods_Harmonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66F1903C7C8E35D8C6892D5 /* Pods_Harmonia.framework */; };
+		5516F9E82D26E36B00F5F0F4 /* FluidGradient in Frameworks */ = {isa = PBXBuildFile; productRef = 5516F9E72D26E36B00F5F0F4 /* FluidGradient */; };
+		5516F9EA2D26E56400F5F0F4 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516F9E92D26E56400F5F0F4 /* UIViewController+ext.swift */; };
 		552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618CF2D242B6200F5E2A9 /* AppDelegate.swift */; };
 		552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618D12D242B6200F5E2A9 /* SceneDelegate.swift */; };
 		552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552618D82D242B6400F5E2A9 /* Images.xcassets */; };
@@ -43,6 +45,7 @@
 		2036BE0FEF183F1E3E62FBAA /* AuthModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthModuleOutput.swift; sourceTree = "<group>"; };
 		2DD94E799847AE6117410FF8 /* AuthPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
 		36554BB51A60A0E3AA7708F1 /* AuthCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		5516F9E92D26E56400F5F0F4 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
 		552618CC2D242B6200F5E2A9 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552618CF2D242B6200F5E2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552618D12D242B6200F5E2A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B101E7A6CFCB6D124D0EEB5 /* Pods_Harmonia.framework in Frameworks */,
+				5516F9E82D26E36B00F5F0F4 /* FluidGradient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +244,7 @@
 			children = (
 				5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */,
 				5526193C2D2449C900F5E2A9 /* UIView+ext.swift */,
+				5516F9E92D26E56400F5F0F4 /* UIViewController+ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -322,6 +327,9 @@
 			dependencies = (
 			);
 			name = Harmonia;
+			packageProductDependencies = (
+				5516F9E72D26E36B00F5F0F4 /* FluidGradient */,
+			);
 			productName = Harmonia;
 			productReference = 552618CC2D242B6200F5E2A9 /* Harmonia.app */;
 			productType = "com.apple.product-type.application";
@@ -353,6 +361,7 @@
 			mainGroup = 552618C32D242B6200F5E2A9;
 			packageReferences = (
 				552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				5516F9E62D26E36B00F5F0F4 /* XCRemoteSwiftPackageReference "FluidGradient" */,
 			);
 			productRefGroup = 552618CD2D242B6200F5E2A9 /* Products */;
 			projectDirPath = "";
@@ -469,6 +478,7 @@
 				552619292D24451800F5E2A9 /* Router.swift in Sources */,
 				552619222D2444BB00F5E2A9 /* MainRouter.swift in Sources */,
 				5526191F2D24448B00F5E2A9 /* BaseCoordinator.swift in Sources */,
+				5516F9EA2D26E56400F5F0F4 /* UIViewController+ext.swift in Sources */,
 				552619192D24443800F5E2A9 /* ServiceLocating.swift in Sources */,
 				552619342D2446D100F5E2A9 /* Strings.swift in Sources */,
 				5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */,
@@ -721,6 +731,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5516F9E62D26E36B00F5F0F4 /* XCRemoteSwiftPackageReference "FluidGradient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cindori/FluidGradient.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
@@ -730,6 +748,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5516F9E72D26E36B00F5F0F4 /* FluidGradient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5516F9E62D26E36B00F5F0F4 /* XCRemoteSwiftPackageReference "FluidGradient" */;
+			productName = FluidGradient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 552618C42D242B6200F5E2A9 /* Project object */;
 }

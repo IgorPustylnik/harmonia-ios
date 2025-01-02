@@ -24,7 +24,7 @@ final class AuthView: UIView {
     // MARK: - UI Setup
 
     private func setupUI() {
-        backgroundColor = .systemTeal
+
     }
 
 }
