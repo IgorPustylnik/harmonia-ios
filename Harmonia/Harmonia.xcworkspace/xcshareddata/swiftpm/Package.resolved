@@ -1,5 +1,5 @@
 {
-  "originHash" : "71b004acd6d2a75f9bf71c617691489cc80299e1959157d7c2b91707e2f734a5",
+  "originHash" : "e181147205e4dc75ec2bd5c370ca441f714cc6d30ed6619bc122beb10cc23139",
   "pins" : [
     {
       "identity" : "fluidgradient",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "f9731bef175c3eea3a0ca960f1be78fcc2bc7853",
         "version" : "0.57.1"
+      }
+    },
+    {
+      "identity" : "vkid-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/VKCOM/vkid-ios-sdk",
+      "state" : {
+        "revision" : "70d4eb5dc3c98fc09aef303d628272c8e314b8cd",
+        "version" : "2.3.1"
       }
     }
   ],
