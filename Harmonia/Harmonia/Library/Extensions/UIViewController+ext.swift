@@ -12,11 +12,12 @@ import FluidGradient
 extension UIViewController {
 
     func setAnimatedFluidBackground() {
-        let backgroundView =
-        FluidGradient(blobs: [.red, .green, .blue],
-                      highlights: [.yellow, .orange, .purple],
-                      speed: 0.25,
-                      blur: 0.75)
+        let backgroundView = FluidGradient(
+            blobs: [.red, .green, .blue],
+            highlights: [.yellow, .orange, .purple],
+            speed: 0.25,
+            blur: 0.75
+        )
         .background(.quaternary)
         .ignoresSafeArea()
         let hostingController = UIHostingController(rootView: backgroundView)
@@ -24,7 +25,7 @@ extension UIViewController {
         addChild(hostingController)
         hostingController.view.frame = view.bounds
         hostingController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.addSubview(hostingController.view)
+        view.insertSubview(hostingController.view, at: 0)
         hostingController.didMove(toParent: self)
     }
 
