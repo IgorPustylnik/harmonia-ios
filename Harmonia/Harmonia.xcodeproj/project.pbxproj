@@ -11,12 +11,17 @@
 		1B101E7A6CFCB6D124D0EEB5 /* Pods_Harmonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66F1903C7C8E35D8C6892D5 /* Pods_Harmonia.framework */; };
 		5516F9E82D26E36B00F5F0F4 /* FluidGradient in Frameworks */ = {isa = PBXBuildFile; productRef = 5516F9E72D26E36B00F5F0F4 /* FluidGradient */; };
 		5516F9EA2D26E56400F5F0F4 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516F9E92D26E56400F5F0F4 /* UIViewController+ext.swift */; };
+		5516F9EE2D26EA3900F5F0F4 /* VKID in Frameworks */ = {isa = PBXBuildFile; productRef = 5516F9ED2D26EA3900F5F0F4 /* VKID */; };
+		5516F9F02D26EA3900F5F0F4 /* VKIDCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5516F9EF2D26EA3900F5F0F4 /* VKIDCore */; };
+		5516F9F22D273AC000F5F0F4 /* VKIDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516F9F12D273AC000F5F0F4 /* VKIDService.swift */; };
+		5516FA0E2D282FD600F5F0F4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 552619102D24432E00F5E2A9 /* Localizable.strings */; };
+		5516FA102D282FDF00F5F0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5516FA042D282C1C00F5F0F4 /* LaunchScreen.storyboard */; };
+		5516FA112D282FEB00F5F0F4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5526190E2D2442B900F5E2A9 /* Colors.xcassets */; };
+		5516FA122D282FED00F5F0F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552618D82D242B6400F5E2A9 /* Images.xcassets */; };
+		5516FA132D282FF500F5F0F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 552619312D24467300F5E2A9 /* swiftgen.yml */; };
 		552618D02D242B6200F5E2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618CF2D242B6200F5E2A9 /* AppDelegate.swift */; };
 		552618D22D242B6200F5E2A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552618D12D242B6200F5E2A9 /* SceneDelegate.swift */; };
-		552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552618D82D242B6400F5E2A9 /* Images.xcassets */; };
-		552618DC2D242B6400F5E2A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 552618DB2D242B6400F5E2A9 /* Base */; };
 		5526190B2D24422200F5E2A9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526190A2D24422200F5E2A9 /* AppCoordinator.swift */; };
-		552619122D24432E00F5E2A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 552619102D24432E00F5E2A9 /* Localizable.strings */; };
 		552619172D24441F00F5E2A9 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619162D24441F00F5E2A9 /* ServiceLocator.swift */; };
 		552619192D24443800F5E2A9 /* ServiceLocating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619182D24443800F5E2A9 /* ServiceLocating.swift */; };
 		5526191F2D24448B00F5E2A9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526191E2D24448B00F5E2A9 /* BaseCoordinator.swift */; };
@@ -24,11 +29,9 @@
 		552619252D2444E100F5E2A9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619242D2444E100F5E2A9 /* Coordinator.swift */; };
 		552619272D2444F100F5E2A9 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619262D2444F100F5E2A9 /* Presentable.swift */; };
 		552619292D24451800F5E2A9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619282D24451800F5E2A9 /* Router.swift */; };
-		552619322D24467300F5E2A9 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 552619312D24467300F5E2A9 /* swiftgen.yml */; };
 		552619342D2446D100F5E2A9 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552619332D2446D100F5E2A9 /* Strings.swift */; };
 		5526193D2D2449C900F5E2A9 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193B2D2449C900F5E2A9 /* UIApplication+ext.swift */; };
 		5526193E2D2449C900F5E2A9 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526193C2D2449C900F5E2A9 /* UIView+ext.swift */; };
-		555A11032D26B85F00892000 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5526190E2D2442B900F5E2A9 /* Colors.xcassets */; };
 		57BFD82EE8982A2619C6FDB5 /* AuthModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7FEFE04D15E3A3E07FBA2 /* AuthModuleConfigurator.swift */; };
 		61238225EF1E40156DAB99A0 /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD94E799847AE6117410FF8 /* AuthPresenter.swift */; };
 		6F38249BB3E86FB9277ECA92 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C3CF16C244FC19645DA736 /* AuthViewController.swift */; };
@@ -46,12 +49,14 @@
 		2DD94E799847AE6117410FF8 /* AuthPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
 		36554BB51A60A0E3AA7708F1 /* AuthCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		5516F9E92D26E56400F5F0F4 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
-		552618CC2D242B6200F5E2A9 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5516F9F12D273AC000F5F0F4 /* VKIDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKIDService.swift; sourceTree = "<group>"; };
+		5516FA052D282C1C00F5F0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5516FA152D28312800F5F0F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5516FA172D28315000F5F0F4 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5516FA182D28429800F5F0F4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		552618CF2D242B6200F5E2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552618D12D242B6200F5E2A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		552618D82D242B6400F5E2A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		552618DB2D242B6400F5E2A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		552618DD2D242B6400F5E2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5526190A2D24422200F5E2A9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		5526190E2D2442B900F5E2A9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		552619112D24432E00F5E2A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -84,7 +89,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B101E7A6CFCB6D124D0EEB5 /* Pods_Harmonia.framework in Frameworks */,
+				5516F9EE2D26EA3900F5F0F4 /* VKID in Frameworks */,
 				5516F9E82D26E36B00F5F0F4 /* FluidGradient in Frameworks */,
+				5516F9F02D26EA3900F5F0F4 /* VKIDCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,18 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				552618CE2D242B6200F5E2A9 /* Harmonia */,
-				552618CD2D242B6200F5E2A9 /* Products */,
 				6401BDB327BF8C5C092413B4 /* Pods */,
 				7475F2B730BD88F8F3CB4764 /* Frameworks */,
+				5516FA172D28315000F5F0F4 /* Harmonia.app */,
 			);
-			sourceTree = "<group>";
-		};
-		552618CD2D242B6200F5E2A9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				552618CC2D242B6200F5E2A9 /* Harmonia.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		552618CE2D242B6200F5E2A9 /* Harmonia */ = {
@@ -126,6 +125,7 @@
 				5526191B2D24445A00F5E2A9 /* Library */,
 				5526190C2D24429800F5E2A9 /* Resources */,
 				552619302D24465900F5E2A9 /* SwiftGen */,
+				5516FA182D28429800F5F0F4 /* Config.xcconfig */,
 			);
 			path = Harmonia;
 			sourceTree = "<group>";
@@ -145,8 +145,8 @@
 			children = (
 				5526190D2D2442A600F5E2A9 /* Assets */,
 				5526190F2D24430C00F5E2A9 /* Strings */,
-				552618DA2D242B6400F5E2A9 /* LaunchScreen.storyboard */,
-				552618DD2D242B6400F5E2A9 /* Info.plist */,
+				5516FA042D282C1C00F5F0F4 /* LaunchScreen.storyboard */,
+				5516FA152D28312800F5F0F4 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				5526191A2D24444B00F5E2A9 /* Locator */,
+				5516F9F12D273AC000F5F0F4 /* VKIDService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -319,8 +320,8 @@
 				552619082D243FDD00F5E2A9 /* SwiftLint */,
 				552618C82D242B6200F5E2A9 /* Sources */,
 				552618C92D242B6200F5E2A9 /* Frameworks */,
-				552618CA2D242B6200F5E2A9 /* Resources */,
 				527247661C92650AA21B7E97 /* [CP] Embed Pods Frameworks */,
+				5516FA0C2D282FBB00F5F0F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,9 +330,11 @@
 			name = Harmonia;
 			packageProductDependencies = (
 				5516F9E72D26E36B00F5F0F4 /* FluidGradient */,
+				5516F9ED2D26EA3900F5F0F4 /* VKID */,
+				5516F9EF2D26EA3900F5F0F4 /* VKIDCore */,
 			);
 			productName = Harmonia;
-			productReference = 552618CC2D242B6200F5E2A9 /* Harmonia.app */;
+			productReference = 5516FA172D28315000F5F0F4 /* Harmonia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -362,8 +365,9 @@
 			packageReferences = (
 				552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 				5516F9E62D26E36B00F5F0F4 /* XCRemoteSwiftPackageReference "FluidGradient" */,
+				5516F9EC2D26EA3900F5F0F4 /* XCRemoteSwiftPackageReference "vkid-ios-sdk" */,
 			);
-			productRefGroup = 552618CD2D242B6200F5E2A9 /* Products */;
+			productRefGroup = 552618C32D242B6200F5E2A9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -373,15 +377,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		552618CA2D242B6200F5E2A9 /* Resources */ = {
+		5516FA0C2D282FBB00F5F0F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555A11032D26B85F00892000 /* Colors.xcassets in Resources */,
-				552618D92D242B6400F5E2A9 /* Images.xcassets in Resources */,
-				552619122D24432E00F5E2A9 /* Localizable.strings in Resources */,
-				552618DC2D242B6400F5E2A9 /* Base in Resources */,
-				552619322D24467300F5E2A9 /* swiftgen.yml in Resources */,
+				5516FA112D282FEB00F5F0F4 /* Colors.xcassets in Resources */,
+				5516FA132D282FF500F5F0F4 /* swiftgen.yml in Resources */,
+				5516FA122D282FED00F5F0F4 /* Images.xcassets in Resources */,
+				5516FA0E2D282FD600F5F0F4 /* Localizable.strings in Resources */,
+				5516FA102D282FDF00F5F0F4 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,16 +500,17 @@
 				8015A373E5B85AC661127CE2 /* AuthViewOutput.swift in Sources */,
 				CE01821EE8CED40AF0FD11BC /* AuthCoordinator.swift in Sources */,
 				858D5A1EDFA0B6A77614D464 /* AuthCoordinatorOutput.swift in Sources */,
+				5516F9F22D273AC000F5F0F4 /* VKIDService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		552618DA2D242B6400F5E2A9 /* LaunchScreen.storyboard */ = {
+		5516FA042D282C1C00F5F0F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				552618DB2D242B6400F5E2A9 /* Base */,
+				5516FA052D282C1C00F5F0F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -524,6 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		552618DE2D242B6400F5E2A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5516FA182D28429800F5F0F4 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -575,6 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -633,6 +640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -739,6 +747,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		5516F9EC2D26EA3900F5F0F4 /* XCRemoteSwiftPackageReference "vkid-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VKCOM/vkid-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
 		552619072D243F4B00F5E2A9 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
@@ -754,6 +770,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5516F9E62D26E36B00F5F0F4 /* XCRemoteSwiftPackageReference "FluidGradient" */;
 			productName = FluidGradient;
+		};
+		5516F9ED2D26EA3900F5F0F4 /* VKID */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5516F9EC2D26EA3900F5F0F4 /* XCRemoteSwiftPackageReference "vkid-ios-sdk" */;
+			productName = VKID;
+		};
+		5516F9EF2D26EA3900F5F0F4 /* VKIDCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5516F9EC2D26EA3900F5F0F4 /* XCRemoteSwiftPackageReference "vkid-ios-sdk" */;
+			productName = VKIDCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

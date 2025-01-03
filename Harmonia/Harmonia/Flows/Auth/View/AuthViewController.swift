@@ -12,9 +12,20 @@ final class AuthViewController: UIViewController {
 
     // MARK: - Properties
 
-    private var authView = AuthView()
+    private var authView: AuthView
 
     var output: AuthViewOutput?
+
+    // MARK: - Init
+
+    init(vkButton: UIView) {
+        authView = AuthView(vkButton: vkButton)
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     // MARK: - UIViewController
 

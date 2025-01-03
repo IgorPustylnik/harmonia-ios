@@ -11,15 +11,19 @@ import UIKit
 final class AuthModuleConfigurator {
 
     func configure() -> (
-       AuthViewController,
-       AuthModuleOutput) {
-        let view = AuthViewController()
-        let presenter = AuthPresenter()
+        AuthViewController,
+        AuthModuleOutput) {
+            guard let vkidService: VKIDService = ServiceLocator.shared.resolve() else {
+                preconditionFailure("Failed to resolve VKIDService")
+            }
 
-        presenter.view = view
-        view.output = presenter
+            let view = AuthViewController(vkButton: vkidService.vkButton())
+            let presenter = AuthPresenter()
 
-        return (view, presenter)
-    }
+            presenter.view = view
+            view.output = presenter
+
+            return (view, presenter)
+        }
 
 }

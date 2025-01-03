@@ -12,19 +12,31 @@ final class AuthView: UIView {
 
     // MARK: - UI Elements
 
-    init() {
+    private var vkButton: UIView
+
+    // MARK: - Private properties
+
+    // MARK: - Init
+
+    init(vkButton: UIView) {
+        self.vkButton = vkButton
         super.init(frame: .zero)
         setupUI()
     }
 
     required init?(coder: NSCoder) {
-        super.init(coder: coder)
+        fatalError("init(coder:) has not been implemented")
     }
 
     // MARK: - UI Setup
 
     private func setupUI() {
+        addSubview(vkButton)
 
+        vkButton.anchor(leading: safeAreaLayoutGuide.leadingAnchor,
+                        bottom: safeAreaLayoutGuide.bottomAnchor,
+                        trailing: safeAreaLayoutGuide.trailingAnchor,
+                        padding: UIEdgeInsets(top: 0, left: 16, bottom: 54, right: 16))
     }
 
 }
