@@ -33,6 +33,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         appCoordinator.start()
     }
 
+    func scene(_ scene: UIScene,
+               openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        URLContexts.forEach { ctx in
+            guard let vkidService: VKIDService = ServiceLocator.shared.resolve() else {
+                return
+            }
+            vkidService.open(url: ctx.url)
+        }
+    }
+
     func sceneDidDisconnect(_ scene: UIScene) {
     }
 
